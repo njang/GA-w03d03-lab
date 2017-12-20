@@ -36,3 +36,8 @@ Flower.prototype = {
     document.querySelector("body").appendChild(flower);
   }
 }
+
+//initialize some flower instances
+var chrysanthemum = new Flower("pink", 65, false);
+var rose = new Flower("red", 32, true);
+var lily = new Flower("yellow", 6, true);
